@@ -1,7 +1,12 @@
 @media screen and (max-width:480px){
     .hero__text__header--big{
-      font-size:2rem;
+      font-size:3rem;
     }
+
+    .hero__text__header--small{
+      font-weight:300;
+      font-size: 2rem;
+      }
 
   .header{
     flex-direction: column;
@@ -73,6 +78,12 @@
   .hero__text__header--big{
     font-size:3rem;
   }
+
+
+  .hero__text__header--small{
+    font-weight:300;
+    font-size: 2rem;
+    }
 
 .header{
   flex-direction: column;
