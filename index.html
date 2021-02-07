@@ -6,10 +6,13 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="/css/style.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" />
+  <link rel="stylesheet" href="/css/rspoensive.css">
   <title>ONEofaKIND</title>
 </head>
 
 <body>
+
+  <!-- Landing Page -->
   <section id="landing">
     <div class="hero flex-column">
       <div class="hero__text flex-column">
@@ -20,24 +23,33 @@
     </div>
   </section>
 
+  <!-- Main Page -->
   <section id="main-page">
-    <header class="main-page-header header flex-row">
-      <div class="logo"><a href="#main-page">ONEofaKIND</a></div>
-      <nav class="navbar">
-        <ul class="navbar__ul  flex-row">
-          <li><a href="#shop">Shop</a></li>
-          <li><a href="#stores">Stores</a></li>
-          <li><a href="#about">About</a></li>
-          <li><a href="#contact">Contact</a></li>
-        </ul>
-      </nav>
-    </header>
-    <div class="showcase flex-row">
-      <div class="collage">
+    <div class="page-grid">
+      <div class="page__header header flex-row">
+        <div class="logo"><a href="#main-page">ONEofaKIND</a></div>
+        <nav class="navbar">
+          <ul class="navbar__ul  flex-row">
+            <li><a href="#shop">Shop</a></li>
+            <li><a href="#stores">Stores</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </nav>
+        <div class="up-icon"> <a href="#shop"><i class="fas fa-chevron-up"></i></a></div>
       </div>
-    </div>
+      <div class="page__aside flex-column">
+        <p>ONEofaKIND</p>
+      </div>
+      <div class="page__main">
+        <div class="showcase ">
+          <div class="collage">
+          </div>
+        </div>
+      </div>
   </section>
 
+  <!-- Shop Page -->
   <section id="shop">
     <div class="page-grid">
       <div class="page__header header flex-row">
@@ -112,6 +124,7 @@
     </div>
   </section>
 
+  <!-- Stores -->
   <section id="stores">
     <div class="page-grid">
       <div class="page__header header flex-row">
@@ -127,12 +140,13 @@
         <div class="up-icon"> <a href="#shop"><i class="fas fa-chevron-up"></i></a></div>
       </div>
       <div class="page__aside flex-column">
-        <p>Stores</p>
+        <p>STORES</p>
       </div>
       <div class="page__main"></div>
     </div>
   </section>
 
+  <!-- About -->
   <section id="about">
     <div class="page-grid">
       <div class="page__header header flex-row">
@@ -150,7 +164,7 @@
       <div class="page__aside flex-column">
         <p>ABOUT</p>
       </div>
-      <div class="page__main flex-column">
+      <div class="page__main ">
         <div class="about-grid">
           <div class="about-grid__img1 grid-img"></div>
           <div class="about-grid__text1 grid-text">
@@ -177,6 +191,7 @@
     </div>
   </section>
 
+  <!-- Contact -->
   <section id="contact">
     <div class="page-grid">
       <div class="page__header header flex-row">
@@ -192,7 +207,7 @@
         <div class="up-icon"> <a href="#about"><i class="fas fa-chevron-up"></i></a></div>
       </div>
       <div class="page__aside flex-column">
-        <p>ABOUT</p>
+        <p>CONTACT</p>
       </div>
       <div class="page__main flex-column"></div>
     </div>
